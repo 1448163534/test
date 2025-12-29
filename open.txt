@@ -1,0 +1,108 @@
+用户信息中：
+
+1：tenantClass：ent表示企业端，
+userClass：staff表示企业用户
+
+2：tenantClass：school表示学校，通过userClass区分老师和学生
+userClass：teacher表示教师，student表示学生，
+
+3：subType: admin表示管理员，其他都是normal
+
+ MicroLessonStudyEvent event = new MicroLessonStudyEvent();
+            event.setLessonId(Long.valueOf(String.valueOf(id)));
+            event.setUserId(getUid());
+            SpringUtil.publishEvent(event);
+			
+			
+			
+
+#注释
+#HostKeyAlgorithms ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,rsa-sha2-256,rsa-sha2-512
+#注释
+#PubkeyAcceptedKeyTypes ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,rsa-sha2-256,rsa-sha2-512
+# 在行尾增加",ecdh-sha2-nistp521"，以满足ecdsa公钥方式登录(密钥长度521)
+KexAlgorithms curve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group-exchange-sha256,ecdh-sha2-nistp521
+
+# 在行尾增加",ssh-rsa"，以满足RSA 登录
+HostKeyAlgorithms ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,rsa-sha2-256,rsa-sha2-512,ssh-rsa
+
+# 在行尾增加",ssh-rsa"，以满足RSA 登录
+PubkeyAcceptedKeyTypes ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,rsa-sha2-256,rsa-sha2-512,ssh-rsa
+
+
+{
+"max_tokens":1024,
+"model":"deepseek-chat",
+"temperature":0.5,
+"top_p":1,
+"presence_penalty":0,
+"frequency_penalty":0,
+"messages":[
+{"role":"user","content":"下午好"}
+],
+"stream":true,
+"kid":"",
+"chat_type":0,
+"appId":"1926889375067238402"
+}
+
+
+标书中的命名建议‌
+‌标准术语‌
+官方名称：
+d
+‌firewalld‌（CentOS/RHEL/openEuler等主流发行版默认工具）
+统一称谓：建议在标书中首次出现时标注全称‌"Linux内核级防火墙firewalld
+后续可简化为‌"系统防火墙"‌或‌"内置防火墙模块"‌
+
+Experimental Training
+
+"http://www.hicareer.net/research/res/2025-08-04/aa525ecde88c44fd8503fe3a70087baf",
+"serverFilePath": "",
+fileUrl": "http://www.hicareer.net/research/res/2025-08-04/64f10922bf0e4a87973431bb0872afd1.png",
+"serverFilePath": "",
+"fileUrl": "http://www.hicareer.net/research/res/2025-08-04/a0091dfcd3cf4a28bdaf4c7cba2841c5.md",
+"serverFilePath": "",
+
+
+训练模板任务
+
+微课关联维度
+    "identity": "",     // 素养维度dimCode值
+    "lessonId": "",  //微课id     
+    "relationType": "dim", //固定值
+	创新科研模板
+	
+    
+    title;
+    @ApiModelProperty(value = "微课类型: ind(行业), post(岗位通), general(通识)")
+    lessonType; // 类型    
+    detailType; // 细分
+    private String state;	
+
+NAVN-L4ZA-YHAN-XLJH
+http://www.hicareer.net/uims/api
+
+ $2a$10$ffnJRppGy7PApNdG1b2bKO8D102KAJm.TwOb6N3/Il2tAjUtK7goS
+ 
+ 咨询同事
+ 直接联系供应商
+ [{"id": "0", "answer": "0", "prefix": "", "content": "重启系统", "voOrder": 0}, {"id": "1", "answer": "1", "prefix": "", "content": "1960-1978", "voOrder": 1}, {"id": "2", "answer": "0", "prefix": "", "content": "1978-1990", "voOrder": 2}, {"id": "3", "answer": "0", "prefix": "", "content": "1990-2000", "voOrder": 3}]
+
+1	246924	数字素养	digital
+2	246924	文化素养	culture
+3	246924	职业精神	career
+4	246924	时间管理	time
+5	246924	执行力	force
+6	246924	团队协作	team
+7	246924	心理素质	psy
+8	246924	商务礼仪	business
+9	246924	沟通宣讲	comm
+10	246924	商务写作	write
+11	246924	自学能力	self
+12	246924	逻辑思维	logic
+
+
+
+
+
